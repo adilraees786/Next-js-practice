@@ -2,11 +2,12 @@ import { Button } from "@/components/ui/button"
 
 
 
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <div>
-      <h1 className=" mb-5 text-xl"> Adil Raees</h1>
-      <Button variant="destructive">Button</Button>
+      <div>
+        <h1 className=" mb-5 text-2xl font-extrabold" > Todo List</h1>
+      </div>
     </div>
   )
 }
