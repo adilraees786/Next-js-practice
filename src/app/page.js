@@ -7,6 +7,7 @@ export default function Home() {
     <div>
       <div>
         <h1 className=" mb-5 text-2xl font-extrabold" > Todo List</h1>
+        <input type="text"/>
       </div>
     </div>
   )
