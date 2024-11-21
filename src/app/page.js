@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div className=" container">
+    <div className=" container flex">
       <div>
         <h1 className=" mb-5 text-2xl font-extrabold" > Todo List</h1>
         <input type="text"/>
